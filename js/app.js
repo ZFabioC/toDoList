@@ -10,15 +10,19 @@ formAddTodo.addEventListener('submit', event => {
         todosContainer.innerHTML += `
             <li>
                 <span>${inputValue}</span>
-                <i>
-                    <img class="trash-icon" src="./assets/recycle-bin-icon.png">
-                </i>
+                <img class="trash-icon" src="./assets/recycle-bin-icon.png">
             </li>
         `
-
         event.target.reset()
         return
     }
     
     alert('É necessário dar um nome a tarefa!')
+})
+
+todosContainer.addEventListener('click', event => {
+    const clickedElement = event.target
+    if (Array.from(clickedElement.classList).includes('trash-icon')) {
+        clickedElement.parentElement.remove()
+    }
 })
