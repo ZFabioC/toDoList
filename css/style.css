@@ -43,7 +43,7 @@ h1 {
     list-style: none;
 }
 
-.content-todos li {
+.content-li {
     background-color: #eeeaea;
     padding: 8px;
     border-radius: 8px;
@@ -74,3 +74,6 @@ h1 {
     font-weight: 700;
 }
 
+.hidden {
+    display: none;
+}
