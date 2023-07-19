@@ -7,7 +7,6 @@
 
 body {
     width: 100vw;
-    height: 100vh;
     background-color: #121212;
     display: flex;
     justify-content: center;
@@ -21,7 +20,7 @@ body {
     overflow: hidden;
     padding: 15px;
     border-radius: 10px;
-    margin: 15px;
+    margin: 50px 15px;
 }
 
 .form-input {
