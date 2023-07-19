@@ -16,3 +16,8 @@ Este projeto é um aplicativo web de To-Do List (lista de tarefas) desenvolvido 
 - HTML5
 - CSS3
 - JavaScript (com foco na manipulação do DOM)
+
+## Confira
+
+Confira como ficou o projeto acessando o link: 
+- https://zfabioc.github.io/toDoList/
